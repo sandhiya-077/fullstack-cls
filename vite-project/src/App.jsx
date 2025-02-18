@@ -21,8 +21,10 @@ function App() {
   return (
     <>
     <div>
-      <Comp1 name={details.name} Rollno={details.Rollno}/>
+    <h1 style={{textAlign:"center",color:"pink"}}>Friends forever</h1>
+      <Comp1 name={details.name} Rollno={details.Rollno} />
       <Comp1 name1={info2.name1} Rollno1={info2.Rollno1}/>
+      <h2 stlye={{textAlign:"center",color:"black"}}>My SecId is {details.SecId}</h2>
       <button onClick={()=>{alert('Onclick is clicked')}}>click</button>
       <button onDoubleClick={()=>{alert('On double click is clicked')}}>Double click </button>
 
