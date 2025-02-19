@@ -25,7 +25,7 @@ function App() {
   };
   return (
     <>
-    <h1>Sandhiya R</h1>
+    <h1>R Sandhiya</h1>
     <div className={isDarkMode ? "dark-theme" : "light-theme"}>
       <div className="content">
         <h1 style={{ textAlign: "center", color: isDarkMode ? "#F9F6E6" : "darkred" }}>
